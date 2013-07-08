@@ -1,0 +1,8 @@
+Change-Id: I74721dda0dbdbd6c0f441b29ae9d9e6f8773e86d
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:39:24 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4905
+Project: platform/upstream/setxkbmap
+Branch: refs/heads/tizen
