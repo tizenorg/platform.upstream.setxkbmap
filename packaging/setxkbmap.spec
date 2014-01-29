@@ -1,3 +1,5 @@
+%bcond_with x
+
 Name:           setxkbmap
 Version:        1.3.0
 Release:        1
@@ -11,6 +13,10 @@ BuildRequires:  pkg-config
 BuildRequires:  pkgconfig(x11)
 BuildRequires:  pkgconfig(xkbfile)
 BuildRequires:  pkgconfig(xorg-macros) >= 1.8
+
+%if !%{with x}
+ExclusiveArch:
+%endif
 
 %description
 setxkbmap is an X11 client to change the keymaps in the X server for a
